@@ -16,7 +16,7 @@ function RugCheckPopup() {
   if (!show) return null;
 
   return (
-    <div className="fixed top-10 left-1/2 transform -translate-x-1/2 z-50 max-w-md w-full p-6 bg-zinc-900 text-white rounded-2xl shadow-xl border border-zinc-700">
+    <div className="button-10 fixed top-10 left-1/2 transform -translate-x-1/2 z-50 max-w-md w-full p-6 bg-zinc-900 text-white rounded-2xl shadow-xl border border-zinc-700">
       <div className="flex justify-between items-start mb-4"><div className="text-center">
   <img src="logo.png" alt="logo" className="inline-block w-20" />
 </div>
