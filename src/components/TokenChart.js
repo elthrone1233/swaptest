@@ -18,7 +18,7 @@ const TokenChart = ({ data }) => {
     chartInstance.current = createChart(chartRef.current, {
       width: chartRef.current.clientWidth,
       height: 460,
-      layout: { background: { color: '#111827' }, textColor: '#e5e7eb' },
+      layout: { background: { color: '#ffffffff' }, textColor: '#000000ff' },
       grid: {
         vertLines: { color: '#2d3748' },
         horzLines: { color: '#2d3748' },
