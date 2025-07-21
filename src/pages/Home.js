@@ -136,7 +136,7 @@ function App() {
   };
 
   return (
-    <div className="bg-white-950 min-h-screen text-black p-6">
+    <div className="bg-white-950 min-h-screen text-black p-6 shadow p-3 mb-5 bg-body rounded">
       {/* Header */}
       <header className=" mb-8">
         <section className="mb-6 mb-6 flex items-center justify-between">
