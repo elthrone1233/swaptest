@@ -198,7 +198,7 @@ function App() {
         />
         <button
           onClick={() => analyzeToken(tokenAddress)}
-          className="bg-purple-600 px-6 py-3 rounded hover:bg-green-700 transition"
+          className="bg-white-600 px-6 py-3 rounded hover:bg-green-700 transition tex-white border"
         >
           SEARCH
         </button>
