@@ -136,7 +136,7 @@ function App() {
   };
 
   return (
-    <div className="bg-white-950 min-h-screen text-black p-6">
+    <div className="bg-purple-950 min-h-screen text-white p-6">
       {/* Header */}
       <header className=" mb-8">
         <section className="mb-6 mb-6 flex items-center justify-between">
@@ -156,7 +156,7 @@ function App() {
                 <div
                   key={token.address}
                   onClick={() => analyzeToken(token.address)}
-                  className="flex items-center space-x-2 bg-black hover:bg-white-700 px-3 py-2 rounded-lg shadow text-black text-sm cursor-pointer min-w-fit"
+                  className="flex items-center space-x-2 bg-black hover:bg-purple-700 px-3 py-2 rounded-lg shadow text-white text-sm cursor-pointer min-w-fit"
                 >
                   <span className="text-gray-400 font-semibold">
                     #{idx + 1}
