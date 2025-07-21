@@ -10,7 +10,7 @@
 .trending_dex{
      background: linear-gradient(to right, #00008B 15%, red 35%, red 50%, #00008B 70%);
   background-size: 200% auto;
-    font-weight: bolder;
+    font-weight: 1200px;
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
