@@ -207,7 +207,7 @@ const summarizeRisk = (data) => {
           placeholder="Paste Ethereum token address"
           value={tokenAddress}
           onChange={(e) => setTokenAddress(e.target.value)}
-          className="p-3 text-black w-full rounded"
+          className="p-3 text-white w-full rounded"
         />
         <button
           onClick={() => analyzeToken()}
