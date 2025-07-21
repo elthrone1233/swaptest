@@ -169,7 +169,7 @@ const summarizeRisk = (data) => {
   };
 
   return (
-    <div className="bg-purple-950 min-h-screen text-white p-6">
+    <div className="bg-white-950 min-h-screen text-black p-6">
       {/* Header */}
       <header className="flex justify-between items-center mb-8">
         <div className="text-2xl font-bold flex items-center gap-2">
@@ -177,7 +177,7 @@ const summarizeRisk = (data) => {
         </div>
         <button
           onClick={connectWallet}
-          className="bg-purple-600 px-4 py-2 rounded hover:bg-purple-700 transition"
+          className="bg-white-600 px-4 py-2 rounded hover:bg-white-700 transition"
         >
           {walletAddress ? `Connected: ${walletAddress.slice(0, 6)}...` : 'Connect Wallet'}
         </button>
@@ -211,7 +211,7 @@ const summarizeRisk = (data) => {
         />
         <button
           onClick={() => analyzeToken()}
-          className="bg-purple-600 px-6 py-3 rounded hover:bg-green-700 transition"
+          className="bg-white-600 px-6 py-3 rounded hover:bg-green-700 transition"
         >
           Analyze
         </button>
@@ -225,7 +225,7 @@ const summarizeRisk = (data) => {
             <div
               key={token.address}
               onClick={() => analyzeToken(token.address)}
-              className="bg-black p-4 rounded-lg hover:bg-purple-700 cursor-pointer text-center transition"
+              className="bg-white p-4 rounded-lg hover:bg-white-700 cursor-pointer text-center transition"
             >
               <img src={token.icon} alt={token.name} className="w-12 h-12 mx-auto rounded-full mb-2" />
               <h4 className="text-lg font-medium">{token.name}</h4>

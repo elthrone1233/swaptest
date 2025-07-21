@@ -52,9 +52,9 @@ function App() {
     <BrowserRouter>
       <RugCheckModal />
 
-      <div className="bg-gradient-to-r from-purple-700 to-purple-900 text-white min-h-screen">
+      <div className="bg-gradient-to-r from-white-700 to-white-900 text-white min-h-screen">
         {/* 🔝 Top Header Navigation */}
-        <header className="flex flex-col lg:flex-row items-center justify-between px-4 py-3 border-b border-purple-700 bg-black/70 backdrop-blur sticky top-0 z-50">
+        <header className="flex flex-col lg:flex-row items-center justify-between px-4 py-3 border-b border-white-700 bg-black/70 backdrop-blur sticky top-0 z-50">
           {/* Logo & Mobile Toggle */}
           <div className="flex items-center justify-between w-full lg:w-auto">
             <div className="flex items-center gap-2 text-xl font-bold">
@@ -119,7 +119,7 @@ function App() {
               <button
                 onClick={connectWallet}
                 title="Connect Wallet"
-                className="w-full lg:w-auto bg-purple-600 px-4 py-2 rounded hover:bg-purple-700 text-white text-sm font-semibold text-center"
+                className="w-full lg:w-auto bg-white-600 px-4 py-2 rounded hover:bg-white-700 text-white text-sm font-semibold text-center"
               >
                 {walletAddress ? `${walletAddress.slice(0, 6)}...${walletAddress.slice(-4)}` : 'Connect Wallet'}
               </button>
@@ -153,10 +153,10 @@ function App() {
               </button>
             </div>
 
-            <div className="p-3 text-sm bg-purple-100 h-32 overflow-y-auto rounded-b">
+            <div className="p-3 text-sm bg-white-100 h-32 overflow-y-auto rounded-b text-black-50">
               Hi! ETHIQ AI Agent is currently <strong>offline</strong>.
             </div>
-            <div className="p-2 border-t bg-purple-200 flex items-center gap-2">
+            <div className="p-2 border-t bg-white-200 flex items-center gap-2">
               <input
                 type="text"
                 className="flex-grow px-3 py-1 rounded-md border border-gray-300 text-sm"
@@ -164,7 +164,7 @@ function App() {
                 disabled
               />
               <button
-                className="bg-purple-500 text-white px-3 py-1 rounded hover:bg-purple-600 text-sm"
+                className="bg-white-500 text-white px-3 py-1 rounded hover:bg-white-600 text-sm text-black-50"
                 disabled
               >
                 Send
