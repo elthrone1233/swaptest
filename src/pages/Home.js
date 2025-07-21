@@ -136,11 +136,11 @@ function App() {
   };
 
   return (
-    <div className="bg-purple-950 min-h-screen text-white p-6">
+    <div className="bg-white-950 min-h-screen text-black p-6">
       {/* Header */}
       <header className=" mb-8">
         <section className="mb-6 mb-6 flex items-center justify-between">
-          <h3 className="text-base font-semibold text-white mb-2">
+          <h3 className="text-base font-semibold text-black mb-2">
             🔥 Trending Dex Tokens
           </h3>
 
