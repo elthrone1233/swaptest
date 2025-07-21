@@ -1,0 +1,8 @@
+.trending{
+    background-color: white;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 20%;
+    border: 5px solid white;
+}

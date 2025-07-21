@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import { Typewriter } from "react-simple-typewriter";
 import NewEthTokens from "../components/NewEthTokens";
+@import url("../style_own.css");
 
 function App() {
   const [walletAddress, setWalletAddress] = useState("");
@@ -136,7 +137,7 @@ function App() {
   };
 
   return (
-    <div className="bg-white-950 text-black p-6 shadow p-3 mb-5 bg-body rounded-20">
+    <div className="bg-white-950 text-black p-6 shadow p-3 mb-5 bg-body rounded-20 trending">
       {/* Header */}
       <header className=" mb-8">
         <section className="mb-6 mb-6 flex items-center justify-between">
