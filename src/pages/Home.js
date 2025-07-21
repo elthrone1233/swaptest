@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import { Typewriter } from "react-simple-typewriter";
 import NewEthTokens from "../components/NewEthTokens";
-@import url("../style_own.css");
+import styles from "../style_own.css";
 
 function App() {
   const [walletAddress, setWalletAddress] = useState("");
