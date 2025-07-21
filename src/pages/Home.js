@@ -141,7 +141,7 @@ function App() {
       {/* Header */}
       <header className=" mb-8">
         <section className="mb-6 mb-6 flex items-center justify-between">
-          <h3 className="text-base font-semibold text-black mb-2">
+          <h3 className="text-base font-semibold text-black mb-2 trending_dex">
             🔥 Trending Dex Tokens
           </h3>
 
