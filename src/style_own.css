@@ -7,3 +7,19 @@
     border: 5px solid white;
     box-shadow: 5px 10px;
 }
+.trending_dex{
+     background: linear-gradient(to right, #00008B 15%, red 35%, red 50%, #00008B 70%);
+  background-size: 200% auto;
+
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 5s linear infinite;
+}
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
