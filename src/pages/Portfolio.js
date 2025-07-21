@@ -134,7 +134,7 @@ export default function PortfolioAnalyzer() {
               setWallet(w.address);
               fetchPortfolio(w.address);
             }}
-            className="bg-black p-3 rounded cursor-pointer hover:bg-white-700"
+            className="bg-black p-3 rounded cursor-pointer hover:bg-purple-700"
           >
             <p className="font-semibold">{w.name}</p>
             <p className="text-xs text-gray-400 break-all">{w.address}</p>

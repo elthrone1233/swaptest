@@ -37,7 +37,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="relative min-h-screen bg-white-900 text-white">
+      <div className="relative min-h-screen bg-purple-900 text-white">
         {/* Sidebar for Desktop */}
         <aside
           className={`fixed top-0 left-0 h-screen bg-black p-4 transition-all duration-300 z-30 ${
@@ -75,7 +75,7 @@ function App() {
           <div className="mt-4">
             <button
               onClick={() => setChatOpen(true)}
-              className="flex items-center gap-2 w-full bg-black text-blue-400 px-3 py-2 rounded-md hover:bg-white-700 transition"
+              className="flex items-center gap-2 w-full bg-black text-blue-400 px-3 py-2 rounded-md hover:bg-purple-700 transition"
             >
               <span className="text-xl">💬</span>
               {sidebarOpen && <span className="text-sm font-medium">Chat with ETHIQ AGENT</span>}
@@ -85,7 +85,7 @@ function App() {
 
         {/* Sidebar for Mobile */}
         {mobileOpen && (
-          <div className="fixed inset-0 z-40 bg-white-900 flex flex-col p-4 lg:hidden">
+          <div className="fixed inset-0 z-40 bg-purple-900 flex flex-col p-4 lg:hidden">
             <div className="flex items-center justify-between mb-6">
               <div className="text-2xl font-bold flex items-center gap-2">
                 <img src="logob.png" alt="logo" className="h-8 w-8" />
@@ -115,7 +115,7 @@ function App() {
                   closeMobile();
                   setChatOpen(true);
                 }}
-                className="flex items-center gap-2 mt-4 bg-black text-blue-400 px-3 py-2 rounded-md hover:bg-white-700 transition"
+                className="flex items-center gap-2 mt-4 bg-black text-blue-400 px-3 py-2 rounded-md hover:bg-purple-700 transition"
               >
                 <span className="text-xl">💬</span>
                 <span className="text-sm font-medium">Chat with ETHIQ AGENT</span>
@@ -162,10 +162,10 @@ function App() {
               </button>
             </div>
             
-            <div className="p-3 text-sm bg-white-100 h-32 overflow-y-auto rounded-b text-black-50">
+            <div className="p-3 text-sm bg-purple-100 h-32 overflow-y-auto rounded-b">
               Hi! ETHIQ AI Agent is currently <strong>offline</strong>. Please try again later.
             </div>
-            <div className="p-2 border-t bg-white-200 flex items-center gap-2">
+            <div className="p-2 border-t bg-purple-200 flex items-center gap-2">
               <input
                 type="text"
                 className="flex-grow px-3 py-1 rounded-md border border-gray-300 text-sm"
@@ -173,7 +173,7 @@ function App() {
                 disabled
               />
               <button
-                className="bg-white-500 text-white px-3 py-1 rounded hover:bg-white-600 text-sm"
+                className="bg-purple-500 text-white px-3 py-1 rounded hover:bg-purple-600 text-sm"
                 disabled
               >
                 Send
